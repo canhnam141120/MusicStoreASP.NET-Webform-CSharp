@@ -1,0 +1,7 @@
+E:\Documents\Kỳ 5_C#\SE1432_Group2_Lab4\SE1432_Group2_Lab4\obj\Debug\SE1432_Group2_Lab4.csprojAssemblyReference.cache
+E:\Documents\Kỳ 5_C#\SE1432_Group2_Lab4\SE1432_Group2_Lab4\obj\Debug\SE1432_Group2_Lab4.csproj.CoreCompileInputs.cache
+E:\Documents\Kỳ 5_C#\SE1432_Group2_Lab4\SE1432_Group2_Lab4\bin\SE1432_Group2_Lab4.dll.config
+E:\Documents\Kỳ 5_C#\SE1432_Group2_Lab4\SE1432_Group2_Lab4\bin\SE1432_Group2_Lab4.dll
+E:\Documents\Kỳ 5_C#\SE1432_Group2_Lab4\SE1432_Group2_Lab4\bin\SE1432_Group2_Lab4.pdb
+E:\Documents\Kỳ 5_C#\SE1432_Group2_Lab4\SE1432_Group2_Lab4\obj\Debug\SE1432_Group2_Lab4.dll
+E:\Documents\Kỳ 5_C#\SE1432_Group2_Lab4\SE1432_Group2_Lab4\obj\Debug\SE1432_Group2_Lab4.pdb

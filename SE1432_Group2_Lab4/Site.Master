@@ -1,0 +1,50 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="SE1432_Group2_Lab4.Site" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+    <title></title>
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            margin-left: 0px;
+        }
+    </style>
+</head>
+<body>
+    <form runat="server">
+    <div class="page">
+        <div class="header">
+            <div class="title">
+                <h1>
+                     &nbsp;<asp:Image ID="Image1" 
+                         runat="server" ImageUrl="~/Images/logo.png" ImageAlign="Middle" />
+                     &nbsp; ONLINE MUSIC STORE&nbsp;
+                </h1>
+            </div>
+            <div class="loginDisplay">
+                         
+                <asp:Button ID="Button1" runat="server" Text="Login" BackColor="#1E8FFE" BorderStyle="None" Height="34px" Width="100px" CssClass="auto-style1" Font-Underline="True" ForeColor="White" OnClick="Button1_Click" />
+            </div>
+            <div class="clear hideSkiplink">
+                <asp:HyperLink ID="HShopping" runat="server" NavigateUrl="/GUI/ShoppingGUI.aspx" ForeColor="#0000CC">Shopping</asp:HyperLink>
+                <asp:HyperLink ID="HCart" runat="server" NavigateUrl="/GUI/CartGUI.aspx" ForeColor="#0000CC">Cart</asp:HyperLink>
+                <asp:HyperLink ID="HAbout" runat="server" NavigateUrl="/GUI/About.aspx" ForeColor="#0000CC">About</asp:HyperLink>
+                <asp:HyperLink ID="HReport" runat="server" NavigateUrl="/GUI/ReportGUI.aspx" Visible="False" ForeColor="#0000CC">Report</asp:HyperLink>
+                <asp:HyperLink ID="HAlbum" runat="server" NavigateUrl="/GUI/AlbumGUI.aspx" Visible="False" ForeColor="#0000CC">Album</asp:HyperLink>
+            </div>
+        </div>
+        <div class="main">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+        </div>
+        <div class="clear">
+        </div>
+    </div>
+    <div class="footer">
+        <p>Author: SE1432 Group 2 <br /> Email: group2@fpt.edu.vn</p> 
+    </div>
+    </form>
+</body>
+</html>
